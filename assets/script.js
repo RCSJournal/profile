@@ -74,7 +74,7 @@ const initRLS=()=>{
     bannerLink.href=langUrls[lang];
     bannerLink.setAttribute('aria-label',lang==='ru'?'Исследования России и Кавказа':lang==='en'?'Russian and Caucasus Studies':'دوفصلنامه مطالعات روسیه و قفقاز');
     const image=document.createElement('img');
-    image.src=asset('Banner.png');
+    image.src=asset('Banner.svg');
     image.alt=lang==='ru'?'Исследования России и Кавказа':'Russian and Caucasus Studies Journal';
     image.loading='eager';
     image.decoding='async';
@@ -96,13 +96,10 @@ const initRLS=()=>{
   if(footer){
     footer.innerHTML=`<div class="container rls-footer-inner">
       <div class="rls-footer-main">
-        <div class="rls-footer-col"><strong>${footerJournalName}</strong><p>${lang==='ru'?'Научный журнал, выходящий два раза в год':lang==='en'?'Biannual journal':'نشریه علمی دو فصلنامه'}</p></div>
-        <div class="rls-footer-col"><p>${lang==='ru'?'Лицензия Министерства № 94254':lang==='en'?'Ministry License No. 94254':'شماره مجوز وزارت فرهنگ و ارشاد اسلامی: 94254'}</p><p>${lang==='ru'?'Дата выдачи лицензии: 2023/07/24':lang==='en'?'License Date: 2023/07/24':'تاریخ مجوز: 1402/05/02'}</p></div>
-        <div class="rls-footer-col"><p>${lang==='ru'?'ISSN: в процессе получения':lang==='en'?'ISSN: Pending':'ISSN: در دست اقدام'}</p><p class="rls-email-line">Email: <a href="mailto:mm.rubin@ut.ac.ir">mm.rubin@ut.ac.ir</a></p><p>© 2026 RCS</p></div>
-        <div class="rls-footer-col rls-footer-cc"><a class="rls-cc-badge" href="${root}copyright.html" title="Creative Commons Attribution 4.0 International"><img src="https://licensebuttons.net/l/by/4.0/88x31.png" alt="CC BY 4.0" width="88" height="31" loading="lazy" decoding="async"></a><p><a href="${root}copyright.html">${lang==='ru'?'Лицензия CC BY 4.0':lang==='en'?'CC BY 4.0 License':'مجوز CC BY 4.0'}</a></p></div>
-      </div>
-      <div class="rls-footer-official-logos">
-        <div class="rls-footer-official-logo"><div class="rls-footer-logo-box"><img src="${asset('وزارت فرهنگ و ارشاد اسلامی.webp')}" alt="${ministryLabel}" loading="lazy"></div><span>${ministryLabel}</span></div>
+        <div class="rls-footer-col"><strong>${footerJournalName}</strong><p>${lang==='ru'?'Научный журнал':lang==='en'?'Academic journal':'نشریه علمی'}</p></div>
+        <div class="rls-footer-col"><p>${lang==='ru'?'Редакционная информация будет опубликована после её утверждения':lang==='en'?'Editorial information will be added after approval':'اطلاعات رسمی نشریه پس از نهایی‌شدن تکمیل خواهد شد'}</p></div>
+        <div class="rls-footer-col"><p>ISSN: ${lang==='ru'?'будет добавлен':lang==='en'?'to be added':'بعداً درج خواهد شد'}</p><p class="rls-email-line">Email: <a href="mailto:mm.rubin@ut.ac.ir">mm.rubin@ut.ac.ir</a></p><p>© 2026 RCS</p></div>
+      </div><span>${ministryLabel}</span></div>
         <div class="rls-footer-official-logo"><a class="rls-footer-logo-box" href="https://www.e-rasaneh.ir/" target="_blank" rel="noopener noreferrer"><img src="${asset('سامانه جامع مطبوعات کشور.jpg')}" alt="${mediaLabel}" loading="lazy"></a><span>${mediaLabel}</span></div>
         <div class="rls-footer-official-logo"><a class="rls-footer-logo-box" href="https://www.magiran.com/" target="_blank" rel="noopener noreferrer" title="Magiran"><img src="${asset('magiran.png')}" alt="Magiran" loading="lazy"></a><span>Magiran</span></div>
         <div class="rls-footer-official-logo"><a class="rls-footer-logo-box" href="https://civilica.com/" target="_blank" rel="noopener noreferrer" title="Civilica"><img src="${asset('sivilica.png')}" alt="Civilica" loading="lazy"></a><span>Civilica</span></div>
