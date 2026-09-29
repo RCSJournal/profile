@@ -964,7 +964,7 @@ footer strong{color:#ead09a!important}footer p,footer a{color:#eadde0!important}
 
 /* ===== RCS blue-carbon & beige theme ===== */
 :root{
-  --paper:#f3ead8;
+  --paper:#e6efe7;
   --alt:#eadfcb;
   --white:#fffaf0;
   --ink:#202b36;
@@ -977,14 +977,14 @@ footer strong{color:#ead09a!important}footer p,footer a{color:#eadde0!important}
   --max:1180px;
 }
 body{background:var(--paper)!important;color:var(--ink)!important}
-.site-header{background:rgba(243,234,216,.97)!important;border-bottom-color:var(--line)!important}
+.site-header{background:rgba(230,239,231,.97)!important;border-bottom-color:var(--line)!important}
 .brand-mark{background:linear-gradient(145deg,var(--accent2),var(--accent))!important}
 .brand strong{color:var(--accent2)!important}
 .brand small{color:var(--accent)!important}
 .main-nav>a:hover,.main-nav>a.active,.nav-group>summary:hover{color:var(--accent)!important}
 .main-nav .nav-submit{background:var(--accent)!important}
 .main-nav .nav-submit:hover{background:var(--accent2)!important}
-.hero{background:radial-gradient(circle at 10% 15%,#fffaf0 0,rgba(255,250,240,.72) 25%,transparent 48%),linear-gradient(135deg,#f3ead8,#eadfcb)!important}
+.hero{background:radial-gradient(circle at 10% 15%,#fffaf0 0,rgba(255,250,240,.72) 25%,transparent 48%),linear-gradient(135deg,#e6efe7,#dce9df)!important}
 .hero h1,.hero h2,.section-head h2,.content h2,.board-section-title{color:var(--accent2)!important}
 .eyebrow,.content h3,.board-role,.text-link{color:var(--accent)!important}
 .journal-card{background:var(--white)!important;border-top-color:var(--accent3)!important}
