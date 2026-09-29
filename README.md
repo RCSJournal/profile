@@ -2,14 +2,6 @@
 
 **Russian and Caucasus Studies (RCS)** is an academic journal dedicated to scholarly research on the Russian language, literature, culture, linguistics, translation, and interdisciplinary studies related to Russia and the Caucasus.
 
-## Official Website
-
-The official journal website is:
-
-**https://rlsj.ir/**
-
-This GitHub organization provides an independent academic and technical identity for the journal, separate from any individual researcher or personal GitHub account.
-
 ## Scope
 
 RCS welcomes original scholarly research in areas including:
@@ -36,16 +28,15 @@ RCS is open to scholarly cooperation with researchers, universities, journals, r
 
 ## Journal Resources
 
-The official website provides information on:
+This GitHub organization is intended to provide an independent academic and technical identity for the journal and may be used for:
 
-- Editorial board
-- Authors and submission procedures
+- Editorial and journal information
+- Author and submission resources
 - Published articles and issues
 - Author guidelines
 - Journal policies
-- Copyright and licensing
-- Journal metrics
-- Academic and editorial information
+- Copyright and licensing information
+- Academic and editorial resources
 
 ## Repository Policy
 
@@ -58,8 +49,6 @@ Confidential manuscripts, reviewer reports, personal data, and other non-public 
 For journal-related inquiries:
 
 **Email:** mm.rubin@ut.ac.ir
-
-**Website:** https://rlsj.ir/
 
 ---
 
