@@ -99,11 +99,6 @@ const initRLS=()=>{
         <div class="rls-footer-col"><strong>${footerJournalName}</strong><p>${lang==='ru'?'Научный журнал':lang==='en'?'Academic journal':'نشریه علمی'}</p></div>
         <div class="rls-footer-col"><p>${lang==='ru'?'Редакционная информация будет опубликована после её утверждения':lang==='en'?'Editorial information will be added after approval':'اطلاعات رسمی نشریه پس از نهایی‌شدن تکمیل خواهد شد'}</p></div>
         <div class="rls-footer-col"><p>ISSN: ${lang==='ru'?'будет добавлен':lang==='en'?'to be added':'بعداً درج خواهد شد'}</p><p class="rls-email-line">Email: <a href="mailto:mm.rubin@ut.ac.ir">mm.rubin@ut.ac.ir</a></p><p>© 2026 RCS</p></div>
-      </div><span>${ministryLabel}</span></div>
-        <div class="rls-footer-official-logo"><a class="rls-footer-logo-box" href="https://www.e-rasaneh.ir/" target="_blank" rel="noopener noreferrer"><img src="${asset('سامانه جامع مطبوعات کشور.jpg')}" alt="${mediaLabel}" loading="lazy"></a><span>${mediaLabel}</span></div>
-        <div class="rls-footer-official-logo"><a class="rls-footer-logo-box" href="https://www.magiran.com/" target="_blank" rel="noopener noreferrer" title="Magiran"><img src="${asset('magiran.png')}" alt="Magiran" loading="lazy"></a><span>Magiran</span></div>
-        <div class="rls-footer-official-logo"><a class="rls-footer-logo-box" href="https://civilica.com/" target="_blank" rel="noopener noreferrer" title="Civilica"><img src="${asset('sivilica.png')}" alt="Civilica" loading="lazy"></a><span>Civilica</span></div>
-        <div class="rls-footer-official-logo"><a class="rls-footer-logo-box" href="https://www.researchbib.com/" target="_blank" rel="noopener noreferrer" title="ResearchBib"><img src="${asset('researchbib.svg')}" alt="ResearchBib" loading="lazy"></a><span>ResearchBib</span></div>
       </div>
     </div>`;
   }
