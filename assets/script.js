@@ -160,11 +160,11 @@ footer .rls-footer-official-logo span{font-size:11px;font-weight:700;line-height
   }
 
   if(inRu){
-    const oldNames=['Исследования русского языка','Russian and Caucasus Studies','Russian Language and Linguistics Studies','Russian Language Linguistics Studies','RCS'];
+    const oldNames=['Исследования России и Кавказа','Russian and Caucasus Studies','Russian Language and Linguistics Studies','Russian Language Linguistics Studies','RCS'];
     const correctName='Исследования России и Кавказа';
-    document.title=document.title.replace(/Исследования русского языка|Russian and Caucasus Studies|Russian Language and Linguistics Studies|Russian Language Linguistics Studies|RCS/g,correctName);
+    document.title=document.title.replace(/Исследования России и Кавказа|Russian and Caucasus Studies|Russian Language and Linguistics Studies|Russian Language Linguistics Studies|RCS/g,correctName);
     document.querySelectorAll('meta[content],meta[property],meta[name]').forEach(el=>{
-      if(el.content)el.content=el.content.replace(/Исследования русского языка|Russian and Caucasus Studies|Russian Language and Linguistics Studies|Russian Language Linguistics Studies|RCS/g,correctName);
+      if(el.content)el.content=el.content.replace(/Исследования России и Кавказа|Russian and Caucasus Studies|Russian Language and Linguistics Studies|Russian Language Linguistics Studies|RCS/g,correctName);
     });
     const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);
     const nodes=[];
